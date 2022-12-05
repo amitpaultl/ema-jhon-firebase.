@@ -1,0 +1,59 @@
+.single-product {
+    margin: 8px 
+
+}
+.single-product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 10px;
+}
+
+.single-product p{
+    margin-bottom: 0;
+    margin-top: 9px;
+
+}
+
+.single-product p small{
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #2A414F;
+}
+
+.product-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.card-style {
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    height: 508px;
+    width: 300px;
+}
+
+button.add-card {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    color: #0E161A;
+    font-size: 15px;
+    font-family: 'Lato';
+    background: #FFE0B3;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.add-card:hover{
+    background: orange;
+}
+
+.card-mar{
+    margin-right: 5px;
+}

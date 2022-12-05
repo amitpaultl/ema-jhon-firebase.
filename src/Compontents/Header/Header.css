@@ -1,0 +1,43 @@
+.header-bg{
+    background: #1C2B35;
+}
+
+.logo-area {
+    padding: 17px 0;
+}
+
+.menu-area{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-aera ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-aera ul li {
+    display: inline-block;
+    margin: 17px 5px;
+}
+
+.menu-aera ul a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 15px;
+    font-size: 17px;
+}
+
+.menu-aera ul a:hover {
+    color: #FF9900;
+}
+
+@media (min-width: 250px) and (max-width: 1199.98px) { 
+    .menu-area{
+        width: unset;
+    }
+}

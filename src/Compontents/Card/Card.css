@@ -1,0 +1,35 @@
+.card{
+    position: sticky;
+    top: 0;
+}
+.card-title{
+    text-align: center;
+}
+
+button.clear {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.clear p{
+    margin-right: 5px;
+}
+
+.bg-red{
+    background: #FF3030;
+}
+.bg-orang{
+    background-color: #FF9900;
+}
+
+p.tota-price {
+    font-family: 'Lato';
+    font-size: 21px;
+    color: #0E161A;
+}

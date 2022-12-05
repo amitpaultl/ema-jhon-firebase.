@@ -1,0 +1,24 @@
+.review-item{
+    display: flex;
+    border: 2px solid cadetblue;
+    margin-bottom: 21px;
+    border-radius: 5px;
+}
+
+.review-item img{
+    width: 150px;
+    height: 150px;
+    padding: 9px;
+}
+
+.reviwe-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 35px;
+}
+
+.delete-container button{
+    cursor: pointer;
+}
